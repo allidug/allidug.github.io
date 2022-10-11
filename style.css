@@ -1,0 +1,287 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(234, 243, 247);
+    text-align: left;
+}
+
+h1 {
+    color:rgb(89, 148, 89);
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    width: 700px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px;
+    border: 20px;
+
+
+}
+
+h3 {
+    color: rgb(70, 95, 218);
+    text-align: left;
+    text-indent: 10px;
+}
+
+p {
+    font-size: 15px!important;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+ol {
+    text-align: left;  
+}
+
+#river {
+    position:absolute;
+    left: 600px;
+    right: 20px;
+    top: 450px;
+    color: blue;
+    width: 400px;
+    height: 500px;
+}
+
+#smile {
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.box {
+    background-color: white;
+    height: 195px;
+    width: 300px;
+    border: 10px solid rgb(169, 183, 244);
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: cat;
+    animation-duration: 4s;
+    text-align: center;
+}
+
+.box p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(94, 118, 226);
+}
+
+.box > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes cat {
+    from {background-color: rgb(103, 95, 216);}
+    to {background-color: rgb(137, 211, 237);}
+}
+
+.container {
+    background-color:white;
+    height: 150px;
+    width: 400px;
+    border: 2px solid rgb(169, 183, 244);
+    padding: 5px;
+    margin: 5px;
+}
+
+.container a {
+    color: green;
+    text-align: center;
+}
+
+
+img {
+    border: 10px solid rgb(84, 153, 112);
+}
+
+.blue {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.purple {
+    font-size:30px;
+}
+
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: rgb(169, 183, 244);
+    border: 1px solid rgb(83, 139, 81);   
+}
+
+.pseudo {
+    text-decoration: none;
+}
+
+a.pseudo:visited {
+    color: white;
+    font-size: medium;
+    text-align: left;
+}
+
+a.pseudo:hover {
+    color:lightblue;
+}
+
+a.pseudo:active {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pseudo {
+    text-decoration: none;
+}
+
+a.pseudo:visited {
+    color: blueviolet;
+}
+
+a.pseudo:hover {
+    color:lightblue;
+}
+
+a.pseudo:active {
+    color: green;
+}
+
+div.position {
+    position: absolute;
+    left: 50px;
+    right: 400px;
+    top: 100px;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: rgb(243, 194, 154);
+    border: 1px solid orange;
+}
+
+.button1 {
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+
+
+
+div {
+    background: pink;
+}
+
+span {
+    background: lightskyblue;
+    height: 50px;
+    width: 300px;
+    display: block;
+}
+.box {
+    background-color: lightyellow;
+    width: 500px;
+    border: 20px solid peachpuff;
+    padding: 40px;
+    margin: 60px;
+}
+
+p {
+    background-color: lightblue;
+    color: whitesmoke;
+    margin: 40px 50px 40px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ body {
+            background: rgb(255, 199, 206);  
+        }
+
+        section a {
+            color: greenyellow;
+        }
+
+        section > a {
+            color:orange;
+        }
+
+        p {
+            font-size: 15px!important;
+        }
+
+        p {
+            font-size:24px;
+        }
+
+        h4 {
+            color:darkviolet;
+        }
+
+        .purple {
+            color:purple;
+        }
+
+        #blue {
+            color:rgb(42, 42, 231);
+        }
+*/
+
+    
